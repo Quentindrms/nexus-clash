@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/** Variables couleurs du fichier */
+
+$dark: #121212;
+$yellow: #FFEB3B;
+$purpleDark: #4A148C;
+$brightPurple: #7C4DFF;
+$brightGrey: #E0E0E0;
+
+body{
+    background-color: $dark;
+    color: $brightGrey
+}
+
+.brand-logo{
+    width: 100px;
+    height: 100px;
+}

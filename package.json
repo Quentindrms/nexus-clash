@@ -1,0 +1,23 @@
+{
+  "name": "nexus-clash",
+  "version": "1.0.0",
+  "description": "Vous travaillez dans une agence spécialisée dans la création de sites vitrines.   Vous êtes chargé de l'intégration et du développement du site vitrine d'un client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quentindrms/nexus-clash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quentindrms/nexus-clash/issues"
+  },
+  "homepage": "https://github.com/Quentindrms/nexus-clash#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
