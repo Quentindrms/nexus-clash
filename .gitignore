@@ -1,0 +1,27 @@
+# Fichiers attentes client
+ressources/*
+!ressources/.gitkeep
+
+# Fichiers éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+.Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Node
+node_modules/
+
+# Fichiers de logs
+*.log
+
+# Fichiers d'environnement
+.env
+.env.*
