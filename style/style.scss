@@ -18,54 +18,15 @@ body {
     color: $brightGrey;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 footer {
     border-top: 2px solid $yellow;
-}
-
-.brand-area {
-    align-items: center;
-    display: flex;
-}
-
-.brand-name {
-    font-size: 25px;
-    color: $brightPurple;
-    overflow-wrap: normal;
-    margin-left: 15px;
-    width: max-content;
 }
 
 .brand-logo {
     width: 100px;
     height: 100px;
     margin: 10px;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    position: relative;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 25px;
-}
-
-.nav-list-element {
-    justify-content: flex-end;
 }
 
 
@@ -135,7 +96,7 @@ footer {
 .btn {
     color: $yellow;
     width: fit-content;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .container-participation{

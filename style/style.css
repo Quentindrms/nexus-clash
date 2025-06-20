@@ -11865,54 +11865,14 @@ body {
   color: #E0E0E0;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 footer {
   border-top: 2px solid #FFEB3B;
-}
-
-.brand-area {
-  align-items: center;
-  display: flex;
-}
-
-.brand-name {
-  font-size: 25px;
-  color: #7C4DFF;
-  overflow-wrap: normal;
-  margin-left: 15px;
-  width: max-content;
 }
 
 .brand-logo {
   width: 100px;
   height: 100px;
   margin: 10px;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  position: relative;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 25px;
-}
-
-.nav-list-element {
-  justify-content: flex-end;
 }
 
 .header-banner {
@@ -11980,7 +11940,7 @@ footer {
 .btn {
   color: #FFEB3B;
   width: fit-content;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .container-participation {
