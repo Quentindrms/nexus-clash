@@ -11891,6 +11891,7 @@ footer {
 .brand-logo {
   width: 100px;
   height: 100px;
+  margin: 10px;
 }
 
 .nav-container {
@@ -11902,6 +11903,7 @@ footer {
 }
 
 .nav-list {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -11940,17 +11942,22 @@ footer {
   justify-content: center;
 }
 
-.next-edition {
+.medium-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .card {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   margin: 25px;
-  width: 240px;
-  height: 240px;
 }
 
 .card-body {
@@ -11958,12 +11965,31 @@ footer {
 }
 
 .card-img {
-  width: 240px;
-  height: 240px;
+  width: min-content;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.participation-form-check {
+  margin: 15px;
 }
 
 .btn {
   color: #FFEB3B;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.container-participation {
+  display: block;
+}
+
+.participation-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
