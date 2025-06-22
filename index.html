@@ -15,25 +15,21 @@
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
 
-  <header class="d-flex align-items-center">
+  <header class="d-inline-flex">
 
-    <div class="container d-flex row align-items-center">
+    <div class="container d-inline-flex justify-content-start align-items-center gap-4">
       <a class="navbar-brand" href="#">
-        <img src="./img/logo.svg" alt="Nexus clash" width="100px" height="100" px>
-        Nexus Clash
-      </a>
+        <img src="./img/logo.svg" alt="Nexus clash" width="100px" height="100px" class="logo"></a>
+      <p class="brand-text fs-3">Nexus Clash</p>
     </div>
 
-    <nav class="navbar d-flex justify-content-end">
-      <div class="container d-flex gap-3">
+    <nav class="navbar nav d-inline-flex align-items-center justify-content-end">
+      <div class="container d-flex gap-2">
         <a class="navbar-link active" href="#">Accueil</a>
-        <a class="nav-link" href="#">Tournois</a>
-        <a class="nav-link" href="#">Participer</a>
+        <a class="navbar-link" href="#">Tournois</a>
+        <a class="navbar-link border" id="participate" href="#">Participer</a>
       </div>
     </nav>
-
-
-
   </header>
 
   <div class="header-banner d-flex justify-content-start">
@@ -43,8 +39,8 @@
   <main>
 
     <div class="title-container">
-      <h1 class="display-1 text-center align-center">Qu'est-ce que Nexus Clash</h1>
-      <p class="fs-5 text-center" width="50%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae
+      <h1 class="display-1 text-center align-center title1">Qu'est-ce que Nexus Clash</h1>
+      <p class="fs-5 text-center description" width="50%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae
         aliquet sem.
         Suspendisse porta, nisi dignissim cursus tempus, elit augue maximus neque, eu ullamcorper lorem tellus quis ex.
         Integer vel ipsum eu massa consequat pharetra et in massa. Duis hendrerit tincidunt fringilla. Curabitur tempus
@@ -53,7 +49,7 @@
         leo ac nisi.</p>
     </div>
 
-    <h2 class="display-2 text-center">Prochaine édition</h2>
+    <h2 class="display-5 text-center title2 text-decoration-underline">Prochaine édition</h2>
 
     <div class="next-edition">
 
@@ -62,21 +58,28 @@
         <div class="card">
           <img class="card-img-top" src="https://picsum.photos/240/240">
           <div class="card-body">
-            <div class="card-title text-center">Lorem ipsum</div>
+            <div class="card-title text-center">5 000 euros de cash prize</div>
           </div>
         </div>
 
         <div class="card">
           <img class="card-img-top" src="https://picsum.photos/240/240">
           <div class="card-body">
-            <div class="card-title text-center">Lorem ipsum</div>
+            <div class="card-title text-center">16 jeux sélectionnés</div>
           </div>
         </div>
 
         <div class="card">
           <img class="card-img-top" src="https://picsum.photos/240/240">
           <div class="card-body">
-            <div class="card-title text-center">Lorem ipsum</div>
+            <div class="card-title text-center">128 joueurs participants</div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-body" id="card4">
+            <div class="card-title text-center">50 0000 spectateurs</div>
           </div>
         </div>
 
@@ -84,22 +87,14 @@
         <div class="card">
           <img class="card-img-top" src="https://picsum.photos/240/240">
           <div class="card-body">
-            <div class="card-title text-center">Lorem ipsum</div>
-          </div>
-        </div>
-
-
-        <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/240/240">
-          <div class="card-body">
-            <div class="card-title text-center">Lorem ipsum</div>
+            <div class="card-title text-center">1 salle <br> 4 arènes</div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="container-participation">
-      <h2 class="display-2 text-center">Participer à Nexus-Clash</h2>
+      <h2 class="display-2 text-center title3">Participer à Nexus-Clash</h2>
       <form class="participation-form">
 
         <div class="container">

@@ -1,4 +1,18 @@
 @charset "UTF-8";
+/** Importation des polices d'écriture */
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Mont-Serrat.ttf);
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url(../fonts/Orbitron.ttf);
+}
+/** Bootstrap **/
 /*!
  * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
@@ -7379,7 +7393,7 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important;
 }
 
-.border {
+.border, #participate {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
@@ -11855,9 +11869,14 @@ textarea.form-control-lg {
   }
 }
 /** Variables couleurs du fichier */
+/** Fichiers SCSS **/
 * {
   margin: 0;
   padding: 0;
+}
+
+header {
+  width: 100vw;
 }
 
 body {
@@ -11875,6 +11894,16 @@ footer {
   margin: 10px;
 }
 
+.brand-text {
+  color: #4A148C;
+  width: fit-content;
+  font-family: "Orbitron";
+}
+
+.navbar-link {
+  font-family: "Montserrat" !important;
+}
+
 .header-banner {
   width: 100%;
   height: 281px;
@@ -11884,14 +11913,44 @@ footer {
   background-repeat: no-repeat;
 }
 
+#participate {
+  border-color: #FFEB3B !important;
+  padding: 10px;
+}
+
+.banner-text {
+  color: #E0E0E0;
+  width: 50%;
+  -webkit-text-stroke: 2px #121212;
+  font-family: "Orbitron";
+  margin: 10px;
+}
+
 .title-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.title1 {
+  font-family: "Montserrat";
+}
+
+.description {
+  font-family: "Roboto";
+}
+
+.title2 {
+  color: #4A148C;
+  font-family: "Montserrat";
+}
+
 .main-title {
   text-decoration: underline;
+}
+
+.title3 {
+  font-family: "Montserrat";
 }
 
 .description {
@@ -11918,14 +11977,50 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 25px;
+  border: #FFEB3B 2px solid;
 }
 
-.card-body {
-  background-color: #E0E0E0;
+#card1 {
+  background-image: url("../img/borne.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card2 {
+  background-image: url("../img/borne.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card3 {
+  background-image: url("../img/borne.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card4 {
+  background-image: url("../img/borne.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card5 {
+  background-image: url("../img/borne.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-img {
   width: min-content;
+}
+
+.card-title {
+  font-family: "Montserrat";
 }
 
 .col {
@@ -11933,14 +12028,23 @@ footer {
   flex-direction: column;
 }
 
+label {
+  font-family: "Roboto";
+}
+
 .participation-form-check {
   margin: 15px;
+}
+
+.consent {
+  font-family: "Roboto";
 }
 
 .btn {
   color: #FFEB3B;
   width: fit-content;
   margin: 15px;
+  font-family: "Roboto";
 }
 
 .container-participation {
@@ -11950,6 +12054,10 @@ footer {
 .participation-form {
   display: flex;
   flex-direction: column;
+}
+
+.footer-text {
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=style.css.map */

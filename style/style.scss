@@ -1,3 +1,21 @@
+/** Importation des polices d'écriture */
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Mont-Serrat.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(../fonts/Orbitron.ttf);
+}
+
+/** Bootstrap **/
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 /** Variables couleurs du fichier */
@@ -8,9 +26,15 @@ $purpleDark: #4A148C;
 $brightPurple: #7C4DFF;
 $brightGrey: #E0E0E0;
 
+/** Fichiers SCSS **/
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100vw;
 }
 
 body {
@@ -29,6 +53,15 @@ footer {
     margin: 10px;
 }
 
+.brand-text {
+    color: #4A148C;
+    width: fit-content;
+    font-family: 'Orbitron';
+}
+
+.navbar-link {
+    font-family: 'Montserrat' !important;
+}
 
 .header-banner {
     width: 100%;
@@ -39,14 +72,45 @@ footer {
     background-repeat: no-repeat;
 }
 
+#participate {
+    @extend .border;
+    border-color: $yellow !important;
+    padding: 10px;
+}
+
+.banner-text {
+    color: $brightGrey;
+    width: 50%;
+    -webkit-text-stroke: 2px $dark;
+    font-family: 'Orbitron';
+    margin: 10px;
+}
+
 .title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.title1{
+    font-family: 'Montserrat';
+}
+
+.description{
+    font-family: 'Roboto';
+}
+
+.title2 {
+    color: $purpleDark;
+    font-family: 'Montserrat';
+}
+
 .main-title {
     text-decoration: underline;
+}
+
+.title3{
+    font-family: 'Montserrat';
 }
 
 .description {
@@ -58,12 +122,12 @@ footer {
     justify-content: center;
 }
 
-.medium-title{
+.medium-title {
     display: flex;
     justify-content: center;
 }
 
-.card-container{
+.card-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,36 +138,87 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 25px;
+    border: $yellow 2px solid;
 }
 
-.card-body {
-    background-color: #E0E0E0;
+#card1 {
+    background-image: url("../img/borne.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+#card2 {
+    background-image: url("../img/borne.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#card3 {
+    background-image: url("../img/borne.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#card4 {
+    background-image: url("../img/borne.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card5 {
+    background-image: url("../img/borne.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .card-img {
     width: min-content;
 }
 
-.col{
+.card-title{
+    font-family: 'Montserrat';
+}
+
+.col {
     display: flex;
     flex-direction: column;
 }
 
-.participation-form-check{
+label{
+    font-family: 'Roboto';
+}
+
+.participation-form-check {
     margin: 15px;
+}
+
+.consent{
+    font-family: 'Roboto';
 }
 
 .btn {
     color: $yellow;
     width: fit-content;
     margin: 15px;
+    font-family: 'Roboto';
 }
 
-.container-participation{
+.container-participation {
     display: block;
 }
 
 .participation-form {
     display: flex;
     flex-direction: column;
+}
+
+.footer-text{
+    font-family: 'Roboto';
 }
