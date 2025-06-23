@@ -23,24 +23,37 @@
       <p class="brand-text fs-3">Nexus Clash</p>
     </div>
 
-    <nav class="navbar nav d-inline-flex align-items-center justify-content-end">
-      <div class="container d-flex gap-2">
-        <a class="navbar-link active" href="#">Accueil</a>
-        <a class="navbar-link" href="#">Tournois</a>
-        <a class="navbar-link border" id="participate" href="#">Participer</a>
+    <nav class="navbar navbar-expand-md bg-none">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-none" id="navbarContent" data-bs-theme="dark">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fs-4" href="#">Accueil</a>
+            </li>
+            <li class="navbar-nav">
+              <a class="nav-link fs-4" href="#">Tournois</a>
+            </li>
+            <li class="navbar-nav">
+              <a class="nav-link fs-4" href="#" id="participate">Participer</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
-
   <div class="header-banner d-flex justify-content-start">
-    <p class="banner-text fs-1 align-self-end">Bienvenue sur Nexus Clash, le coeur battant de l'esport</p>
+    <p class="banner-text fs-2 align-self-end flex-md-column">Bienvenue sur Nexus Clash, le coeur battant de l'esport</p>
   </div>
 
   <main>
 
-    <div class="title-container">
-      <h1 class="display-1 text-center align-center title1">Qu'est-ce que Nexus Clash</h1>
-      <p class="fs-5 text-center description" width="50%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae
+    <div class="title-container d-flex flex-column">
+      <h1 class="display-1 text-center align-center title1 flex-md-colu">Qu'est-ce que Nexus Clash</h1>
+      <p class="fs-5 text-center description" width="50%">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vivamus vitae
         aliquet sem.
         Suspendisse porta, nisi dignissim cursus tempus, elit augue maximus neque, eu ullamcorper lorem tellus quis ex.
         Integer vel ipsum eu massa consequat pharetra et in massa. Duis hendrerit tincidunt fringilla. Curabitur tempus
@@ -51,47 +64,44 @@
 
     <h2 class="display-5 text-center title2 text-decoration-underline">Prochaine édition</h2>
 
-    <div class="next-edition">
+      <div class="d-flex flex-column flex-md-col flex-lg-row flex-wrap align-content-center">
 
-      <div class="card-container">
-
-        <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/240/240">
-          <div class="card-body">
-            <div class="card-title text-center">5 000 euros de cash prize</div>
+        <div class="card d-flex flex-sm-column flex-md-row">
+          <img src="img/img-cash.png" alt="Image d'illustration" class="card-img">
+          <div class="card-img-overlay">
+            <p class="card-text fs-4 text-center">5 0000 euros de cash prize</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/240/240">
-          <div class="card-body">
-            <div class="card-title text-center">16 jeux sélectionnés</div>
+          <img src="./img/img-arcade.png" alt="Image d'illustration" class="card-img">
+          <div class="card-img-overlay">
+            <p class="card-text fs-4 text-center">16 jeux sélectionnés</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/240/240">
-          <div class="card-body">
-            <div class="card-title text-center">128 joueurs participants</div>
+          <img src="img/img-game.png" alt="Image d'illustration" class="card-img">
+          <div class="card-img-overlay">
+            <p class="card-text fs-4 text-center">128 joueurs participants</p>
           </div>
         </div>
-
 
         <div class="card">
-          <div class="card-body" id="card4">
-            <div class="card-title text-center">50 0000 spectateurs</div>
+          <img class="card-img" src="./img/img-viewers.png" class="card-img">
+          <div class="card-img-overlay">
+            <p class="card-text fs-4 text-center">50 000 spectateurs</p>
           </div>
         </div>
 
-
-        <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/240/240">
-          <div class="card-body">
-            <div class="card-title text-center">1 salle <br> 4 arènes</div>
+                <div class="card">
+          <img class="card-img" src="./img/img-arena.png" class="card-img">
+          <div class="card-img-overlay">
+            <p class="card-text fs-4 text-center">1 salle 4 arènes</p>
           </div>
         </div>
+
       </div>
-    </div>
 
     <div class="container-participation">
       <h2 class="display-2 text-center title3">Participer à Nexus-Clash</h2>

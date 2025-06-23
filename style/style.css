@@ -11900,8 +11900,21 @@ footer {
   font-family: "Orbitron";
 }
 
-.navbar-link {
+.brand-text:hover {
+  color: #FFEB3B;
+}
+
+.nav-link {
   font-family: "Montserrat" !important;
+  color: #7C4DFF;
+}
+
+.nav-link:hover {
+  color: #FFEB3B;
+}
+
+.nav-link:focus {
+  color: #FFEB3B;
 }
 
 .header-banner {
@@ -11916,6 +11929,10 @@ footer {
 #participate {
   border-color: #FFEB3B !important;
   padding: 10px;
+}
+
+#participate:hover {
+  border-color: #4A148C !important;
 }
 
 .banner-text {
@@ -11966,61 +11983,20 @@ footer {
   justify-content: center;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .card {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  margin: 25px;
-  border: #FFEB3B 2px solid;
-}
-
-#card1 {
-  background-image: url("../img/borne.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#card2 {
-  background-image: url("../img/borne.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#card3 {
-  background-image: url("../img/borne.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#card4 {
-  background-image: url("../img/borne.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#card5 {
-  background-image: url("../img/borne.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  border: 2px solid #FFEB3B;
+  margin: 15px;
+  width: fit-content;
 }
 
 .card-img {
-  width: min-content;
+  width: fit-content;
 }
 
-.card-title {
+.card-text {
   font-family: "Montserrat";
+  color: #E0E0E0;
+  -webkit-text-stroke: #121212 1px;
 }
 
 .col {

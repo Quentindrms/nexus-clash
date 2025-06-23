@@ -59,8 +59,21 @@ footer {
     font-family: 'Orbitron';
 }
 
-.navbar-link {
+.brand-text:hover{
+    color: $yellow;
+}
+
+.nav-link {
     font-family: 'Montserrat' !important;
+    color: $brightPurple;
+}
+
+.nav-link:hover{
+    color:$yellow;
+}
+
+.nav-link:focus{
+    color: $yellow;
 }
 
 .header-banner {
@@ -78,6 +91,10 @@ footer {
     padding: 10px;
 }
 
+#participate:hover{
+    border-color: $purpleDark !important;
+}
+
 .banner-text {
     color: $brightGrey;
     width: 50%;
@@ -85,6 +102,7 @@ footer {
     font-family: 'Orbitron';
     margin: 10px;
 }
+
 
 .title-container {
     display: flex;
@@ -117,7 +135,7 @@ footer {
     font-size: 20px;
     margin: 5px;
     width: 85%;
-    ;
+    
     text-align: center;
     justify-content: center;
 }
@@ -127,63 +145,23 @@ footer {
     justify-content: center;
 }
 
-.card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 
 .card {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-    border: $yellow 2px solid;
-}
-
-#card1 {
-    background-image: url("../img/borne.jpg") !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    border: 2px solid $yellow;
+    margin: 15px;
+    width: fit-content;
 }
 
 
-#card2 {
-    background-image: url("../img/borne.jpg") !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.card-img{
+    width: fit-content;
 }
 
-
-#card3 {
-    background-image: url("../img/borne.jpg") !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#card4 {
-    background-image: url("../img/borne.jpg") !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#card5 {
-    background-image: url("../img/borne.jpg") !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.card-img {
-    width: min-content;
-}
-
-.card-title{
+.card-text{
     font-family: 'Montserrat';
+    color:$brightGrey;
+    -webkit-text-stroke: $dark 1px;
 }
 
 .col {
@@ -222,3 +200,5 @@ label{
 .footer-text{
     font-family: 'Roboto';
 }
+
+ 
