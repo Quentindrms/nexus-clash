@@ -11898,6 +11898,7 @@ footer {
   color: #4A148C;
   width: fit-content;
   font-family: "Orbitron";
+  text-shadow: 10px 10px 4px rgba(124, 77, 255, 0.2274509804);
 }
 
 .brand-text:hover {
@@ -11933,14 +11934,15 @@ footer {
 
 #participate:hover {
   border-color: #4A148C !important;
+  background-color: #7C4DFF;
 }
 
 .banner-text {
   color: #E0E0E0;
   width: 50%;
-  -webkit-text-stroke: 2px #121212;
   font-family: "Orbitron";
   margin: 10px;
+  text-shadow: 2px 2px 4px #121212, -2px 2px 4px #121212, 2px -2px 4px #121212, -2px -2px 4px #121212;
 }
 
 .title-container {
@@ -11960,6 +11962,7 @@ footer {
 .title2 {
   color: #4A148C;
   font-family: "Montserrat";
+  text-shadow: 5px 5px 10px #4A148C;
 }
 
 .main-title {
@@ -11987,6 +11990,7 @@ footer {
   border: 2px solid #FFEB3B;
   margin: 15px;
   width: fit-content;
+  box-shadow: 4px 4px 4px rgba(124, 77, 255, 0.2274509804);
 }
 
 .card-img {
@@ -11996,7 +12000,7 @@ footer {
 .card-text {
   font-family: "Montserrat";
   color: #E0E0E0;
-  -webkit-text-stroke: #121212 1px;
+  text-shadow: 2px 2px 4px #7C4DFF, -2px 2px 4px #7C4DFF, 2px -2px 4px #7C4DFF, -2px -2px 4px #7C4DFF;
 }
 
 .col {
@@ -12004,8 +12008,14 @@ footer {
   flex-direction: column;
 }
 
+input {
+  font-family: "Roboto";
+  box-shadow: 0px 4px 4px rgba(124, 77, 255, 0.2274509804);
+}
+
 label {
   font-family: "Roboto";
+  text-shadow: 0px 4px 4px rgba(124, 77, 255, 0.2274509804);
 }
 
 .participation-form-check {

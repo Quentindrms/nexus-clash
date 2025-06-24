@@ -25,6 +25,7 @@ $yellow: #FFEB3B;
 $purpleDark: #4A148C;
 $brightPurple: #7C4DFF;
 $brightGrey: #E0E0E0;
+$transparentPurple: #7c4dff3a;
 
 /** Fichiers SCSS **/
 
@@ -57,9 +58,10 @@ footer {
     color: #4A148C;
     width: fit-content;
     font-family: 'Orbitron';
+    text-shadow: 10px 10px 4px $transparentPurple;
 }
 
-.brand-text:hover{
+.brand-text:hover {
     color: $yellow;
 }
 
@@ -68,11 +70,11 @@ footer {
     color: $brightPurple;
 }
 
-.nav-link:hover{
-    color:$yellow;
+.nav-link:hover {
+    color: $yellow;
 }
 
-.nav-link:focus{
+.nav-link:focus {
     color: $yellow;
 }
 
@@ -91,16 +93,21 @@ footer {
     padding: 10px;
 }
 
-#participate:hover{
+#participate:hover {
     border-color: $purpleDark !important;
+    background-color: $brightPurple;
 }
 
 .banner-text {
     color: $brightGrey;
     width: 50%;
-    -webkit-text-stroke: 2px $dark;
     font-family: 'Orbitron';
     margin: 10px;
+    text-shadow:
+        2px 2px 4px $dark,
+        -2px 2px 4px $dark,
+        2px -2px 4px $dark,
+        -2px -2px 4px $dark;
 }
 
 
@@ -110,24 +117,25 @@ footer {
     align-items: center;
 }
 
-.title1{
+.title1 {
     font-family: 'Montserrat';
 }
 
-.description{
+.description {
     font-family: 'Roboto';
 }
 
 .title2 {
     color: $purpleDark;
     font-family: 'Montserrat';
+    text-shadow: 5px 5px 10px $purpleDark;
 }
 
 .main-title {
     text-decoration: underline;
 }
 
-.title3{
+.title3 {
     font-family: 'Montserrat';
 }
 
@@ -135,7 +143,7 @@ footer {
     font-size: 20px;
     margin: 5px;
     width: 85%;
-    
+
     text-align: center;
     justify-content: center;
 }
@@ -151,17 +159,21 @@ footer {
     border: 2px solid $yellow;
     margin: 15px;
     width: fit-content;
+    box-shadow: 4px 4px 4px $transparentPurple;
 }
 
-
-.card-img{
+.card-img {
     width: fit-content;
 }
 
-.card-text{
+.card-text {
     font-family: 'Montserrat';
-    color:$brightGrey;
-    -webkit-text-stroke: $dark 1px;
+    color: $brightGrey;
+    text-shadow:
+        2px 2px 4px $brightPurple,
+        -2px 2px 4px $brightPurple,
+        2px -2px 4px $brightPurple,
+        -2px -2px 4px $brightPurple;
 }
 
 .col {
@@ -169,15 +181,21 @@ footer {
     flex-direction: column;
 }
 
-label{
+input {
     font-family: 'Roboto';
+    box-shadow: 0px 4px 4px $transparentPurple;
+}
+
+label {
+    font-family: 'Roboto';
+    text-shadow: 0px 4px 4px $transparentPurple;
 }
 
 .participation-form-check {
     margin: 15px;
 }
 
-.consent{
+.consent {
     font-family: 'Roboto';
 }
 
@@ -197,8 +215,6 @@ label{
     flex-direction: column;
 }
 
-.footer-text{
+.footer-text {
     font-family: 'Roboto';
 }
-
- 
