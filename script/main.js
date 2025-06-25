@@ -1,0 +1,1 @@
+document.getElementById('submit-button').onclick = function () { alert('Votre inscription a bien été enregistrée')};
