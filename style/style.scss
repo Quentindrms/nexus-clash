@@ -85,6 +85,7 @@ footer {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    box-shadow: 4px 4px 10px $transparentPurple;
 }
 
 #participate {
@@ -204,6 +205,17 @@ label {
     width: fit-content;
     margin: 15px;
     font-family: 'Roboto';
+}
+
+.btn-primary{
+    background-color: $brightPurple;
+    border: $purpleDark;
+}
+
+.btn-primary:hover{
+    background-color: $purpleDark;
+    border: $brightPurple;
+    color: $yellow;
 }
 
 .container-participation {

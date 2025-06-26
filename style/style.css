@@ -11925,6 +11925,7 @@ footer {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  box-shadow: 4px 4px 10px rgba(124, 77, 255, 0.2274509804);
 }
 
 #participate {
@@ -12031,6 +12032,17 @@ label {
   width: fit-content;
   margin: 15px;
   font-family: "Roboto";
+}
+
+.btn-primary {
+  background-color: #7C4DFF;
+  border: #4A148C;
+}
+
+.btn-primary:hover {
+  background-color: #4A148C;
+  border: #7C4DFF;
+  color: #FFEB3B;
 }
 
 .container-participation {
